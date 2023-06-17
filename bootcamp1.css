@@ -1,0 +1,40 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: blanchedalmond;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.profile-image {
+  height: 50vh; /* Sets the container height to the full viewport height */
+  display: flex;
+  align-items: center; /* Aligns the image to the top */
+  padding-left: 20%;
+  padding-top: 5%;
+}
+.profile-image img {
+  width: 100%;
+  height: auto;
+  align-items: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.label {
+  font-weight: bold;
+}
+
+.info {
+  margin-bottom: 10px;
+}
